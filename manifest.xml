@@ -1,0 +1,17 @@
+<package>
+  <description brief="map2img">
+
+    Subscribes to nav_msgs/OccupancyGrid and publishes a image of the map for visualization/GUIs 
+
+  </description>
+  <author>Dan Lazewatsky</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/map2img</url>
+  <depend package="rospy"/>
+  <depend package="nav_msgs"/>
+  <depend package="sensor_msgs"/>
+
+</package>
+
+
